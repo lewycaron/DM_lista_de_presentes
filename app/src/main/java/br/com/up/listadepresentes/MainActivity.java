@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
 
     public FloatingActionButton fabAddGift;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         fabAddGift = findViewById(R.id.fab_add_gift);
 
         fabAddGift.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
 
